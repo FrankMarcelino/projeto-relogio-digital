@@ -17,3 +17,19 @@ const relogio = setInterval(() =>{
   segundos.textContent = segundosAtual
 
 } )
+
+// botao modo escuro
+
+const darkModeToggle = document.getElementById('dark-mode');
+const body = document.body;
+
+darkModeToggle.addEventListener('change', () => {
+    if (darkModeToggle.checked) {
+        body.classList.add('dark-mode');
+        body.classList.remove('light-mode');
+    } else {
+        body.classList.add('light-mode');
+        body.classList.remove('dark-mode');
+    }
+});
+

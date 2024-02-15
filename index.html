@@ -1,29 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Relogio Digital</title>
+    <script src="script.js" defer></script>
 </head>
+
 <body>
-    <div class="relogio">
-        <div>
-            <span id="horas">00</span>
-            <span class="tempo">Horas</span>
-        </div>
-        
-        <div>
-            <span id="minutos">00</span>
-            <span class="tempo">Minutos</span>
-        </div>
-        
-        <div>
-            <span id="segundos">00</span>
-            <span class="tempo">Segundos</span>
+    
+    <div class="switch">
+        <input id="dark-mode" class="toggle" type="checkbox" name="Dark mode" role="switch" value="on" />
+        <label for="dark-mode"><span></span></label>
+    </div>
+    <div class="curtain">
+        <div class="relogio">
+            <div>
+                <span id="horas">00</span>
+                <span class="tempo">Horas</span>
+            </div>
+
+            <div>
+                <span id="minutos">00</span>
+                <span class="tempo">Minutos</span>
+            </div>
+
+            <div>
+                <span id="segundos">00</span>
+                <span class="tempo">Segundos</span>
+            </div>
         </div>
     </div>
-<script src="script.js"></script>
 </body>
-</html>
 
+</html>

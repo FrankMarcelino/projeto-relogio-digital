@@ -1,3 +1,5 @@
+@import "./btn-on-off.css";
+
 * {
     margin: 0;
     padding: 0;
@@ -6,11 +8,24 @@
 
 body {
     height: 100vh;
-    /* background: linear-gradient(120deg, #ffe53bd8,#ff2525da); */
-    background: linear-gradient(120deg, #000000d8,#180303da);
+    background: linear-gradient(120deg, #ffe53bd8,#ff2525da);
+
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+
+/* Modo escuro */
+body.dark-mode {
+    background: linear-gradient(120deg, #000000d8,#180303da);
+    color: #fff;
+}
+
+/* Modo claro */
+body.light-mode {
+    background: linear-gradient(120deg, #ffe53bd8,#ff2525da);
+    color: #333;
 }
 
 .relogio {
