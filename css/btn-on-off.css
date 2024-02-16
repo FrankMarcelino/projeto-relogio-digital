@@ -1,9 +1,26 @@
+.container-btn-background {
+    display: flex;
+    gap: 8px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    background-color: black;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.titulo-btn {
+    font-weight: bolder;
+    color: #fff;
+}
 .switch{
     width:calc(180px/4);
     height:calc(50px/4);
     margin:0 auto;
     position:relative;
- 
+    
 }
  
 .switch input{
@@ -35,7 +52,7 @@
     border-radius: 40px;
 }
  
-.switch label:after{
+/* .switch label:after{
     content: "";
  
     position: absolute;
@@ -53,7 +70,7 @@
  
     border-radius: inherit;
  
-}
+} */
  
 .switch label span{
     display: block;
