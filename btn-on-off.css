@@ -39,10 +39,10 @@
     content: "";
  
     position: absolute;
-    top: -10px;
-    right: -10px;
-    bottom: -10px;
-    left: -10px;
+    top: -5px;
+    right: -5px;
+    bottom: -5px;
+    left: -5px;
     z-index: -1;
  
     background: -moz-linear-gradient(#EEEEEE, #AAAAAA);
@@ -59,21 +59,12 @@
     display: block;
     width: 30%;
     height: 100%;
-    background: #C0C0C0;
+
  
     position: absolute;
     z-index: 2;
     right: 41%;
     top: 0;
- 
-    background: -moz-linear-gradient(#E0E0E0, #A0A0A0);
-    background: -ms-linear-gradient(#E0E0E0, #A0A0A0);
-    background: -o-linear-gradient(#E0E0E0, #A0A0A0);
-    background: -webkit-linear-gradient(#E0E0E0, #A0A0A0);
-    background: linear-gradient(#E0E0E0, #A0A0A0);
- 
-    border-radius: inherit;
- 
 }
  
 .switch label span:after {
@@ -86,12 +77,6 @@
     width: 70%;
     height: 50%;
  
-    background: -moz-linear-gradient(#F7F7F7, #CCCCCC);
-    background: -ms-linear-gradient(#F7F7F7, #CCCCCC);
-    background: -o-linear-gradient(#F7F7F7, #CCCCCC);
-    background: -webkit-linear-gradient(#F7F7F7, #CCCCCC);
-    background: linear-gradient(#F7F7F7, #CCCCCC);
-    border-radius: inherit;
 }
  
 .switch label span:before {
@@ -99,7 +84,7 @@
  
     position: absolute;
     top: 50%;
-    margin-top: -12px;
+    margin-top: -7px;
     right: -50%;
  
     text-transform: uppercase;
